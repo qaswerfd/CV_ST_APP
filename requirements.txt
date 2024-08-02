@@ -3,3 +3,4 @@ requests
 Pillow
 streamlit_timeline
 numpy 
+streamlit-vis-timeline==0.3.0
