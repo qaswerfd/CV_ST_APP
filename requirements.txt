@@ -4,11 +4,11 @@ Pillow
 streamlit_timeline
 numpy 
 #streamlit-vis-timeline==0.3.0
-pyvista
+#pyvista
 stpyvista
 cadquery
 click==8.0.4  # streamlit compatibility
 ipywidgets==7.7.1
 pythreejs==2.4.2
-pyvista==0.23.0
+pyvista
 vtk == 8.2.0
