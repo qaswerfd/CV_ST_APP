@@ -103,7 +103,7 @@ with st.container():
         #st_lottie(lottie_coding, height=300, key="coding")
 
         
-        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\vortices.PNG', width = 250)
+        st.image('vortices.PNG', width = 250)#r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\
         st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\ICA.PNG', width = 250)
         st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\WSS.PNG', width = 250)
 # ---- PROJECTS ----
