@@ -171,7 +171,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("Some of my 3D printing and CAD projects")
-
+    
     #import streamlit as st
     #import pyvista as pv
     #from stpyvista import stpyvista
@@ -204,7 +204,7 @@ with st.container():
     #mesh = pv.read(r"C:\Users\Qaswe\Downloads\GRIP_blend_organised_mesh_V2.2.stl")
     #mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
     #mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
-    
+    st.image('ANEY.PNG')
     
     # Description text
     st.write(
@@ -323,7 +323,7 @@ with st.container():
 
     # Display the updated visualization
     #stpyvista(plotter, key="TOP")
-
+    st.image('TOPO.PNG')
     st.write("---")
     #st.header("What I like to get up to")
 
@@ -400,7 +400,7 @@ with st.container():
 
     # Display the updated visualization
     #stpyvista(plotter, key="GRIP")
-
+    st.image('GRIP_V.PNG')
 
 def from_data_file(filename):
     import pandas as pd
