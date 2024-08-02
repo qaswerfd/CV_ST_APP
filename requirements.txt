@@ -12,3 +12,4 @@ ipywidgets==7.7.1
 pythreejs==2.4.2
 pyvista
 vtk == 6.2.0
+.vtk
