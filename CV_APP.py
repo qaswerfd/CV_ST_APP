@@ -171,7 +171,7 @@ with st.container():
 with st.container():
     st.write("---")
     st.header("Some of my 3D printing and CAD projects")
-    st.subheader("This section was implemented using stpvista and pyvista and worked when deployed locally but I had to revert to images as streamlit cloud didnt support the implementation. This is in theory possible on AWS or other deployment platforms")
+    st.markdown("This section was implemented using stpvista and pyvista and worked when deployed locally but I had to revert to images as streamlit cloud didnt support the implementation. This is in theory possible on AWS or other deployment platforms")
     
     #import streamlit as st
     #import pyvista as pv
