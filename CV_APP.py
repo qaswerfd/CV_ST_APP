@@ -205,7 +205,7 @@ with st.container():
     #mesh = pv.read(r"C:\Users\Qaswe\Downloads\GRIP_blend_organised_mesh_V2.2.stl")
     #mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
     #mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
-    st.image('ANEY.PNG')
+    
     
     # Description text
     st.write(
@@ -214,7 +214,7 @@ with st.container():
         Brain aneurysm CT scan model. This aneurysm was extracted from a CT scan, and using segmentation methods, an anerurysm volume was generated. I used this and fed it into a fully coupled Fluid solid interaction simulation, to improve progonosis camapbilities of clinical physicians. 
         """
     )
-
+    st.image('ANEY.PNG')
     # Create a PyVista plotter
     #plotter = pv.Plotter(window_size=[600, 600])
 
