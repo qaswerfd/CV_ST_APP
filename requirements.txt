@@ -11,5 +11,5 @@ click==8.0.4  # streamlit compatibility
 ipywidgets==7.7.1
 pythreejs==2.4.2
 pyvista
-vtk == 9.3.1
+#vtk == 9.3.1
 vtkmodules
