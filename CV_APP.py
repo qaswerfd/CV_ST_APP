@@ -185,20 +185,20 @@ with st.container():
     ]
 
     #option = st.selectbox("Select an option", ["Topology optimisation","GRIP", "Aneurysm segmentation"], index=1)
-    option = "Aneurysm segmentation"
+    #option = "Aneurysm segmentation"
 
-    if option == "GRIP":
+    #if option == "GRIP":
         # Code for GRIP option
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
         
 
 
-    elif option == "Aneurysm segmentation":
+    #elif option == "Aneurysm segmentation":
         # Code for Aneurysm segmentation option
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
     
-    elif option == "Topology optimisation":
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\file.stl")
+    #elif option == "Topology optimisation":
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\file.stl")
 
     # Read your STL file
     #mesh = pv.read(r"C:\Users\Qaswe\Downloads\GRIP_blend_organised_mesh_V2.2.stl")
