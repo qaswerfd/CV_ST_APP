@@ -13,3 +13,4 @@ pythreejs==2.4.2
 pyvista
 #vtk == 9.3.1
 vtkmodules
+_vtk
