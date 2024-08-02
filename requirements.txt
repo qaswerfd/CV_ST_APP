@@ -6,3 +6,4 @@ numpy
 #streamlit-vis-timeline==0.3.0
 pyvista
 stpyvista
+cadquery
