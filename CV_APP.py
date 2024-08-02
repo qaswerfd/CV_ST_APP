@@ -172,9 +172,9 @@ with st.container():
     st.write("---")
     st.header("Some of my 3D printing and CAD projects")
 
-    import streamlit as st
-    import pyvista as pv
-    from stpyvista import stpyvista
+    #import streamlit as st
+    #import pyvista as pv
+    #from stpyvista import stpyvista
 
     # Colormap options
     cmap_options = [
@@ -215,14 +215,14 @@ with st.container():
     )
 
     # Create a PyVista plotter
-    plotter = pv.Plotter(window_size=[600, 600])
+    #plotter = pv.Plotter(window_size=[600, 600])
 
     # Add a scalar field (optional)
-    mesh['My scalar'] = mesh.points[:, 2] * mesh.points[:, 0]
+    #mesh['My scalar'] = mesh.points[:, 2] * mesh.points[:, 0]
 
     # Default state for show_edges and colormap
-    show_edges = False
-    selected_cmap = "jet"
+    #show_edges = False
+    #selected_cmap = "jet"
 
     # Checkbox for show_edges
     #show_edges = st.checkbox("Show Edges", value=show_edges)
@@ -231,52 +231,52 @@ with st.container():
     #selected_cmap = st.selectbox("Select Colormap", cmap_options, index=cmap_options.index("jet"))
 
     # Update mesh visualization based on user selections
-    plotter.clear()  # Clear existing mesh
-    plotter.add_mesh(
-        mesh,
-        scalars="My scalar",
-        cmap=selected_cmap,
-        show_edges=show_edges,
-        edge_color="#001100",
-        ambient=0.2
-    )
+    #plotter.clear()  # Clear existing mesh
+    #plotter.add_mesh(
+    #    mesh,
+    #    scalars="My scalar",
+    #    cmap=selected_cmap,
+    #    show_edges=show_edges,
+    #    edge_color="#001100",
+    #    ambient=0.2
+    #)
 
-    plotter.camera_position = 'iso'
+    #plotter.camera_position = 'iso'
 
     # Display the updated visualization
-    stpyvista(plotter, key="Aneurysm")
+    #stpyvista(plotter, key="Aneurysm")
 
-    st.write("---")
+    #st.write("---")
     #st.header("What I like to get up to")
 
-    import streamlit as st
-    import pyvista as pv
-    from stpyvista import stpyvista
+    #import streamlit as st
+    #import pyvista as pv
+    #from stpyvista import stpyvista
 
     # Colormap options
-    cmap_options = [
-        'flag', 'prism', 'ocean', 'gist_earth', 'terrain',
-        'gist_stern', 'gnuplot', 'gnuplot2', 'CMRmap',
-        'cubehelix', 'brg', 'gist_rainbow', 'rainbow', 'jet',
-        'turbo', 'nipy_spectral', 'gist_ncar'
-    ]
+    #cmap_options = [
+    #    'flag', 'prism', 'ocean', 'gist_earth', 'terrain',
+    #    'gist_stern', 'gnuplot', 'gnuplot2', 'CMRmap',
+    #    'cubehelix', 'brg', 'gist_rainbow', 'rainbow', 'jet',
+    #    'turbo', 'nipy_spectral', 'gist_ncar'
+    #]
 
     #option = st.selectbox("Select an option", ["Topology optimisation","GRIP", "Aneurysm segmentation"], index=1)
 
-    option = "Topology optimisation"
+    #option = "Topology optimisation"
 
-    if option == "GRIP":
+    #if option == "GRIP":
         # Code for GRIP option
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
         
 
 
-    elif option == "Aneurysm segmentation":
+    #elif option == "Aneurysm segmentation":
         # Code for Aneurysm segmentation option
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
     
-    elif option == "Topology optimisation":
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\file.stl")
+    #elif option == "Topology optimisation":
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\file.stl")
 
     # Read your STL file
     #mesh = pv.read(r"C:\Users\Qaswe\Downloads\GRIP_blend_organised_mesh_V2.2.stl")
@@ -293,14 +293,14 @@ with st.container():
     )
 
     # Create a PyVista plotter
-    plotter = pv.Plotter(window_size=[600, 600])
+    #plotter = pv.Plotter(window_size=[600, 600])
 
     # Add a scalar field (optional)
-    mesh['My scalar'] = mesh.points[:, 2] * mesh.points[:, 0]
+    #mesh['My scalar'] = mesh.points[:, 2] * mesh.points[:, 0]
 
     # Default state for show_edges and colormap
-    show_edges = False
-    selected_cmap = "jet"
+    #show_edges = False
+    #selected_cmap = "jet"
 
     # Checkbox for show_edges
     #show_edges = st.checkbox("Show Edges", value=show_edges)
@@ -309,51 +309,51 @@ with st.container():
     #selected_cmap = st.selectbox("Select Colormap", cmap_options, index=cmap_options.index("jet"))
 
     # Update mesh visualization based on user selections
-    plotter.clear()  # Clear existing mesh
-    plotter.add_mesh(
-        mesh,
-        scalars="My scalar",
-        cmap=selected_cmap,
-        show_edges=show_edges,
-        edge_color="#001100",
-        ambient=0.2
-    )
+    #plotter.clear()  # Clear existing mesh
+    #plotter.add_mesh(
+    #    mesh,
+    #    scalars="My scalar",
+    #    cmap=selected_cmap,
+    #    show_edges=show_edges,
+    #    edge_color="#001100",
+    #    ambient=0.2
+    #)
 
-    plotter.camera_position = 'xy'
+    #plotter.camera_position = 'xy'
 
     # Display the updated visualization
-    stpyvista(plotter, key="TOP")
+    #stpyvista(plotter, key="TOP")
 
     st.write("---")
     #st.header("What I like to get up to")
 
-    import streamlit as st
-    import pyvista as pv
-    from stpyvista import stpyvista
+    #import streamlit as st
+    #import pyvista as pv
+    #from stpyvista import stpyvista
 
     # Colormap options
-    cmap_options = [
-        'flag', 'prism', 'ocean', 'gist_earth', 'terrain',
-        'gist_stern', 'gnuplot', 'gnuplot2', 'CMRmap',
-        'cubehelix', 'brg', 'gist_rainbow', 'rainbow', 'jet',
-        'turbo', 'nipy_spectral', 'gist_ncar'
-    ]
+    #cmap_options = [
+    #    'flag', 'prism', 'ocean', 'gist_earth', 'terrain',
+    #    'gist_stern', 'gnuplot', 'gnuplot2', 'CMRmap',
+    #    'cubehelix', 'brg', 'gist_rainbow', 'rainbow', 'jet',
+    #    'turbo', 'nipy_spectral', 'gist_ncar'
+    #]
 
     #option = st.selectbox("Select an option", ["Topology optimisation","GRIP", "Aneurysm segmentation"], index=1)
-    option = "GRIP"
+    #option = "GRIP"
 
-    if option == "GRIP":
+    #if option == "GRIP":
         # Code for GRIP option
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\GRIP_blend_organised_mesh_V2.2.stl")
         
 
 
-    elif option == "Aneurysm segmentation":
+    #elif option == "Aneurysm segmentation":
         # Code for Aneurysm segmentation option
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\hole in bleb.stl")
     
-    elif option == "Topology optimisation":
-        mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\file.stl")
+    #elif option == "Topology optimisation":
+    #    mesh = pv.read(r"C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\file.stl")
 
     # Read your STL file
     #mesh = pv.read(r"C:\Users\Qaswe\Downloads\GRIP_blend_organised_mesh_V2.2.stl")
@@ -370,14 +370,14 @@ with st.container():
     )
 
     # Create a PyVista plotter
-    plotter = pv.Plotter(window_size=[600, 600])
+    #plotter = pv.Plotter(window_size=[600, 600])
 
     # Add a scalar field (optional)
-    mesh['My scalar'] = mesh.points[:, 2] * mesh.points[:, 0]
+    #mesh['My scalar'] = mesh.points[:, 2] * mesh.points[:, 0]
 
     # Default state for show_edges and colormap
-    show_edges = False
-    selected_cmap = "jet"
+    #show_edges = False
+    #selected_cmap = "jet"
 
     # Checkbox for show_edges
     #show_edges = st.checkbox("Show Edges", value=show_edges)
@@ -386,20 +386,20 @@ with st.container():
     #selected_cmap = st.selectbox("Select Colormap", cmap_options, index=cmap_options.index("jet"))
 
     # Update mesh visualization based on user selections
-    plotter.clear()  # Clear existing mesh
-    plotter.add_mesh(
-        mesh,
-        scalars="My scalar",
-        cmap=selected_cmap,
-        show_edges=show_edges,
-        edge_color="#001100",
-        ambient=0.2
-    )
+    #plotter.clear()  # Clear existing mesh
+    #plotter.add_mesh(
+    #    mesh,
+    #    scalars="My scalar",
+    #    cmap=selected_cmap,
+    #    show_edges=show_edges,
+    #    edge_color="#001100",
+    #    ambient=0.2
+    #)
 
-    plotter.camera_position = 'xz'
+    #plotter.camera_position = 'xz'
 
     # Display the updated visualization
-    stpyvista(plotter, key="GRIP")
+    #stpyvista(plotter, key="GRIP")
 
 
 def from_data_file(filename):
