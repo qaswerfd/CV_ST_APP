@@ -7,8 +7,8 @@ numpy
 pyvista
 stpyvista
 cadquery
-vtk == 8.2.0
 click==8.0.4  # streamlit compatibility
 ipywidgets==7.7.1
 pythreejs==2.4.2
-pyvista==0.37.0
+pyvista==0.23.0
+vtk == 8.2.0
