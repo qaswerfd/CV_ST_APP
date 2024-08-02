@@ -104,8 +104,8 @@ with st.container():
 
         
         st.image('vortices.PNG', width = 250)#r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\
-        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\ICA.PNG', width = 250)
-        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\WSS.PNG', width = 250)
+        st.image('ICA.PNG', width = 250)
+        st.image('WSS.PNG', width = 250)
 # ---- PROJECTS ----
 with st.container():
     st.write("---")
@@ -113,7 +113,7 @@ with st.container():
     #st.write("##")
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\AZ.png', width = 275)
+        st.image('AZ.png', width = 275)
     with text_column:
         st.subheader("AstraZeneca")
         st.write(
@@ -130,7 +130,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\Siemenspng.png')
+        st.image('Siemenspng.png')
     with text_column:
         st.subheader("Siemens Healthineers")
         st.write(
@@ -145,7 +145,7 @@ with st.container():
 with st.container():
     image_column, text_column = st.columns((1, 2))
     with image_column:
-        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\flex.png')
+        st.image('flex.png')
     with text_column:
         st.subheader("Flexio")
         st.write(
@@ -158,7 +158,7 @@ with st.container():
 #with st.container():
 #    image_column, text_column = st.columns((1, 2))
 #    with image_column:
-#        st.image(r'C:\Users\Qaswe\Anaconda3\envs\streamlit_env\my_app\MYCV_APP\personal-cv-streamlit-template-main\images\Glencore_logo.svg.PNG')
+#        st.image'Glencore_logo.svg.PNG')
 #        
 #    with text_column:
 #        st.subheader("Glencore Nickel")
