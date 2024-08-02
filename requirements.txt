@@ -1,6 +1,5 @@
 pandas
 requests
-streamlit
 PIL
 streamlit_timeline
 numpy 
