@@ -211,7 +211,7 @@ with st.container():
     st.write(
         """
         3D Print projects: 
-        Brain aneurysm CT scan model. This aneurysm was extracted from a CT scan, and using segmentation methods, an anerurysm volume was generated. I used this and fed it into a fully coupled Fluid solid interaction simulation, to improve progonosis camapbilities of clinical physicians. 
+        Brain aneurysm CT scan model. This aneurysm was extracted from a CT scan, and using segmentation methods, an anerurysm volume was generated. I used this and fed it into a fully coupled Fluid solid interaction simulation, to improve progonosis capbilities of clinical physicians. 
         """
     )
     st.image('ANEY.PNG')
